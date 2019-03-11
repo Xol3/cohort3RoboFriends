@@ -8,6 +8,7 @@ class MyComponent extends Component{
       <div className='f2 tc'>
         <h1>OHH YEAHH MR.pancho, WEEEPPAAA</h1>
         <p>YO MAESTRO EL UNICO en tu vida </p>
+        //curly tells that we are using js . and calling props
         <p>{this.props.cumbia}</p>
       </div>
     )

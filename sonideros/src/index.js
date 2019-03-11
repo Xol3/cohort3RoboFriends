@@ -1,12 +1,14 @@
 import React from 'react'; //this is the painter that render what we have on our componets
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import CardList from './CardList';
 import 'tachyons';
-import MyComponent from './MyComponent.js'
 import * as serviceWorker from './serviceWorker';
+import {robots} from './Robots';
 
-ReactDOM.render(<MyComponent cumbia={"Los Askis Del Recuerdo"} />, document.getElementById('chingon'));
+ReactDOM.render(
+<CardList robots={robots} />
+  , document.getElementById('chingon'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
