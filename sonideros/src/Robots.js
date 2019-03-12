@@ -1,3 +1,4 @@
+// exports a var that points to an array with objects ; sample data
 export const robots = [
   {
     id:1,

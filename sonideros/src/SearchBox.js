@@ -1,5 +1,6 @@
 import React from 'react';
-
+//search box component
+//onChange will call the onSearchChange to set the state
 const SearchBox = ({searchfield, onSearchChange}) => {
   return(
     <div className="pa2">

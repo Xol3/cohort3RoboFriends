@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './Card.js';
-
+//creates the cardlist components passing in the array with objects
 const CardList = ({robots}) => {
-
+ // map => repeate the return of a card till it renders all of the objects in the arr
   return (
     <div>
       {
