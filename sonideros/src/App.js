@@ -1,6 +1,6 @@
 //the main component
 import React, { Component } from 'react'; // destructuring and importing Component ''=from module (react library)
-import CardList from './CardList'; //importing compoents
+import CardList from './CardList'; //importing components
 import SearchBox from './SearchBox';
 import {robots} from './Robots'; //importing the array that has objects
 
